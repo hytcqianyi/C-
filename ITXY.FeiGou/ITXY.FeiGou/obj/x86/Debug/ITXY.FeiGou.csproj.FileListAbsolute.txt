@@ -1,0 +1,8 @@
+C:\Users\Student\Desktop\ITXY.FeiGou\ITXY.FeiGou\bin\Debug\ITXY.FeiGou.exe
+C:\Users\Student\Desktop\ITXY.FeiGou\ITXY.FeiGou\bin\Debug\ITXY.FeiGou.pdb
+C:\Users\Student\Desktop\ITXY.FeiGou\ITXY.FeiGou\obj\x86\Debug\ITXY.FeiGou.FrmMain.resources
+C:\Users\Student\Desktop\ITXY.FeiGou\ITXY.FeiGou\obj\x86\Debug\ITXY.FeiGou.Properties.Resources.resources
+C:\Users\Student\Desktop\ITXY.FeiGou\ITXY.FeiGou\obj\x86\Debug\ITXY.FeiGou.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\ITXY.FeiGou\ITXY.FeiGou\obj\x86\Debug\ITXY.FeiGou.exe
+C:\Users\Student\Desktop\ITXY.FeiGou\ITXY.FeiGou\obj\x86\Debug\ITXY.FeiGou.pdb
+C:\Users\Student\Desktop\ITXY.FeiGou\ITXY.FeiGou\obj\x86\Debug\ITXY.FeiGou.csprojResolveAssemblyReference.cache
