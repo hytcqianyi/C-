@@ -136,7 +136,7 @@
         private System.Windows.Forms.PictureBox picHeadImage;
         private System.Windows.Forms.TextBox txtNickName;
         private System.Windows.Forms.Panel pnFriendList;
-        private System.Windows.Forms.ImageList ilHeadImages;
+        public System.Windows.Forms.ImageList ilHeadImages;
     }
 }
 

@@ -30,6 +30,7 @@ namespace ITXY
 
                 byte[] bmsg = uc.Receive(ref ipep);
                 string msg = Encoding.Default.GetString(bmsg);
+               // MessageBox.Show(msg);
                 string[] datas = msg.Split('|');
                 if (datas.Length != 4)
                 {
@@ -37,7 +38,9 @@ namespace ITXY
                 }
                 if(datas[0] =="LOGIN")
                 {
+                   // MessageBox.Show(datas[1]);
                     Friend friend = new Friend();
+
                     int curIndex = Convert.ToInt32(datas[2]);
                     if(curIndex<0 || curIndex >= this.ilHeadImages.Images.Count)
                     { 
@@ -76,6 +79,7 @@ namespace ITXY
         public void addUcf(Friend f)
         {
             UcFriend ucf = new UcFriend();
+            ucf.Frm=this;
             ucf.CurFriend = f;
             ucf.Top = this.pnFriendList.Controls.Count*ucf.Height;
             this.pnFriendList.Controls.Add(ucf);
@@ -86,9 +90,9 @@ namespace ITXY
             //发广播
             UdpClient uc = new UdpClient();
             string myNickName = this.txtNickName.Text;
-            string msg = "LOGIN|"+myNickName+"|12|大家来找我啊";
+            string msg = "LOGIN|"+myNickName+"|2|大家来找我啊";
             byte[] bmsg = Encoding.Default.GetBytes(msg);
-            uc.Send(bmsg,bmsg.Length,new IPEndPoint(IPAddress.Parse("255,255,255,255"),9527));
+            uc.Send(bmsg,bmsg.Length,new IPEndPoint(IPAddress.Parse("255.255.255.255"),9527));
 
         }
     }

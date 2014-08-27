@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UcFriend));
             this.picHeadImage = new System.Windows.Forms.PictureBox();
-            this.lblHeadImage = new System.Windows.Forms.Label();
-            this.lbShuoshuo = new System.Windows.Forms.Label();
+            this.lblNickName = new System.Windows.Forms.Label();
+            this.lblShuoshuo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picHeadImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,30 +45,30 @@
             this.picHeadImage.TabIndex = 0;
             this.picHeadImage.TabStop = false;
             // 
-            // lblHeadImage
+            // lblNickName
             // 
-            this.lblHeadImage.AutoSize = true;
-            this.lblHeadImage.Location = new System.Drawing.Point(85, 3);
-            this.lblHeadImage.Name = "lblHeadImage";
-            this.lblHeadImage.Size = new System.Drawing.Size(41, 12);
-            this.lblHeadImage.TabIndex = 1;
-            this.lblHeadImage.Text = "label1";
+            this.lblNickName.AutoSize = true;
+            this.lblNickName.Location = new System.Drawing.Point(85, 3);
+            this.lblNickName.Name = "lblNickName";
+            this.lblNickName.Size = new System.Drawing.Size(29, 12);
+            this.lblNickName.TabIndex = 1;
+            this.lblNickName.Text = "竹路";
             // 
-            // lbShuoshuo
+            // lblShuoshuo
             // 
-            this.lbShuoshuo.AutoSize = true;
-            this.lbShuoshuo.Location = new System.Drawing.Point(85, 36);
-            this.lbShuoshuo.Name = "lbShuoshuo";
-            this.lbShuoshuo.Size = new System.Drawing.Size(41, 12);
-            this.lbShuoshuo.TabIndex = 2;
-            this.lbShuoshuo.Text = "label2";
+            this.lblShuoshuo.AutoSize = true;
+            this.lblShuoshuo.Location = new System.Drawing.Point(85, 36);
+            this.lblShuoshuo.Name = "lblShuoshuo";
+            this.lblShuoshuo.Size = new System.Drawing.Size(53, 12);
+            this.lblShuoshuo.TabIndex = 2;
+            this.lblShuoshuo.Text = "待定。。";
             // 
             // UcFriend
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.lbShuoshuo);
-            this.Controls.Add(this.lblHeadImage);
+            this.Controls.Add(this.lblShuoshuo);
+            this.Controls.Add(this.lblNickName);
             this.Controls.Add(this.picHeadImage);
             this.Name = "UcFriend";
             this.Size = new System.Drawing.Size(280, 66);
@@ -82,7 +82,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox picHeadImage;
-        private System.Windows.Forms.Label lblHeadImage;
-        private System.Windows.Forms.Label lbShuoshuo;
+        private System.Windows.Forms.Label lblNickName;
+        private System.Windows.Forms.Label lblShuoshuo;
     }
 }

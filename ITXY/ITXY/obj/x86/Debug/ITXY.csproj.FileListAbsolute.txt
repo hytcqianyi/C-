@@ -6,3 +6,4 @@ C:\Users\Student\Desktop\ITXY\ITXY\bin\Debug\ITXY.exe
 C:\Users\Student\Desktop\ITXY\ITXY\bin\Debug\ITXY.pdb
 C:\Users\Student\Desktop\ITXY\ITXY\obj\x86\Debug\ITXY.exe
 C:\Users\Student\Desktop\ITXY\ITXY\obj\x86\Debug\ITXY.pdb
+C:\Users\Student\Desktop\ITXY\ITXY\obj\x86\Debug\ITXY.csprojResolveAssemblyReference.cache
